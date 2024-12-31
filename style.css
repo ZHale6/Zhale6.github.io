@@ -1,0 +1,99 @@
+/*başlık stilim*/
+*{
+    text-decoration: none;
+}
+
+h1
+{
+    font-size: 60px;
+    font-style: italic;
+    color: black;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h2
+{
+    font-size: 45px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*paragraf stilim*/
+p
+{
+    text-indent: 50px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+/*sayfa arkaplanı*/
+body
+{
+    background-color: #635147;
+}
+/*paragraf stilim*/
+section
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+}
+/*baslık arkaplanı*/
+header
+{
+    background-color: #d2b48c;
+}
+/*resim stilim*/
+img
+{
+    border-radius: 16%;
+    box-shadow: 10px 10px 10px black;
+}
+footer
+{
+    padding: 10px;
+    font-size: 12pt;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #d2b48c;
+}
+.golgeSil{
+    box-shadow: none;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.links a img {
+    height: 30px;
+}
+
+a 
+{
+    color: black;
+    font-size: 26px;
+}
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container img {
+    width: 200px; 
+    margin-right: 40px; 
+}
+
+.description {
+    max-width: 10000000px;
+}
+
+  
